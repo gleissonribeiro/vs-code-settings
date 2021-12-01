@@ -1,0 +1,192 @@
+{
+  //----Bracket pair colorizer 2----
+  "bracket-pair-colorizer-2.colors": [
+    "#fff",
+    "#eefa0acc",
+    "#0fe0f7cc",
+    "#f286c4cc"
+  ],
+  "bracket-pair-colorizer-2.colorMode": "Independent",
+  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  //---------------------------------
+
+  // ****Breadcrumbs****
+  "breadcrumbs.enabled": true,
+  // *******************
+
+  // ----Debug----
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "debug.console.fontSize": 16,
+  "debug.openDebug": "neverOpen",
+  // -----------------------------
+
+  //****Editor****
+  // "[html]": { "editor.defaultFormatter": null }, //Desabilita formatação HTML
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "300",
+  "editor.formatOnSave": true,
+  "editor.hover.above": false,
+  "editor.minimap.enabled": true,
+  "editor.occurrencesHighlight": false,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.insertMode": "replace",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.semanticTokenColorCustomizations": {
+    "[Nords]": {
+      "rules": {
+        "variable.readonly": "#BF9Eee",
+        "property": "#fffd",
+        "parameter": "#FFB86Cdd"
+      }
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[*]": {
+      "textMateRules": [
+        {
+          "scope": ["keyword", "storage.type", "variable.parameter"],
+          "settings": {
+            // "foreground": "#c2b9c1",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": ["variable.language"],
+          "settings": {
+            "foreground": "#66e65b",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": ["keyword.operator.relational.js"],
+          "settings": {
+            "foreground": "#fffb23",
+            "fontStyle": "bold"
+          }
+        }
+      ]
+    }
+  },
+  //******************************
+
+  "html.format.templating": true,
+
+  // ----Emmet----
+  // "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "*.ejs": "html"
+  },
+  // -------------
+
+  // ****File associations****
+  "files.associations": { "*.ejs": "html" },
+  // *************************
+
+  // ----Git e Gitlens----
+  "git.autofetch": true,
+  "gitlens.views.branches.files.layout": "list",
+  // ---------------------
+
+  // ----Highlight matching tag----
+  "highlight-matching-tag.highlightSelfClosing": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "yellow",
+        "surround": "yellow"
+      }
+    }
+  },
+  // ------------------------------
+
+  // ***H
+
+  // ----Indent-rainbow----
+  "indentRainbow.colors": [
+    "rgba(255,255,255,0.06)",
+    "rgba(238,250,10,0.06)",
+    "rgba(15,224,247,0.06)",
+    "rgba(242,134,196,0.06)"
+  ],
+  // ----------------------
+
+  // ----Live Sass Compiler----
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/styles/css"
+    }
+  ],
+  // --------------------------
+
+  // ----Live Server----
+  "liveServer.settings.CustomBrowser": "microsoft-edge",
+  // -------------------
+
+  "json.schemas": [
+    {
+      "fileMatch": ["tsconfig.json"],
+      "url": "./tsconfig.schema.json"
+    }
+  ],
+  "json.schemaDownload.enable": false,
+  "vscode-edge-devtools.mirrorEdits": true,
+  "vscode-edge-devtools.themes": "Dark",
+
+  // ----Prettier----
+  "prettier.singleQuote": true,
+  // ----------------
+
+  // ----Terminal----
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 3,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.tabs.enabled": true,
+  // ----------------
+
+  // ----Workbench----
+  "workbench.activityBar.visible": true,
+  "workbench.editor.wrapTabs": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.visible": true,
+  "workbench.editor.highlightModifiedTabs": true,
+
+  "workbench.colorCustomizations": {
+    "[Solar System - Venus Italic]": {
+      "editor.selectionBackground": "#4d3f3f",
+      "editor.selectionHighlightBackground": "#741010",
+      "editor.background": "#111",
+      "editor.lineHighlightBackground": "#2b2f30"
+    },
+    "[*]": {
+      "editor.selectionBackground": "#4d3f3f",
+      "editor.selectionHighlightBackground": "#741010",
+      "editor.background": "#111",
+      "editor.lineHighlightBackground": "#2b2f30",
+      "tab.inactiveBackground": "#181616",
+      "tab.activeBackground": "#470c18"
+    }
+  },
+  // ------------------
+
+  //****Zen mode****
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": true,
+  "zenMode.hideActivityBar": true,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": true,
+  "zenMode.hideTabs": false,
+  "editor.fontSize": 16
+  //*****************
+  // ----------------------
+}
